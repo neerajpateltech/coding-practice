@@ -1,4 +1,4 @@
-/* Count Elements Greater Than a Given Number x */
+/* Count Elements Greater Than a Given Number X */
 
 #include <iostream>
 using namespace std;
