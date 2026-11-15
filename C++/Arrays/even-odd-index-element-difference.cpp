@@ -1,9 +1,11 @@
-// Differrence between Even and Odd Index Element
+/* Find the difference between the sum of elements at even indices to the sum of elements at
+odd indices. */
 
-#include<iostream>
+#include <iostream>
 using namespace std;
 
-int main() {
+int main()
+{
 
     int n;
 
@@ -14,29 +16,35 @@ int main() {
 
     cout << "Enter array elements: ";
 
-    for (int i = 0; i < n; i++) {
+    for (int i = 0; i < n; i++)
+    {
         cin >> arr[i];
     }
 
     int odd = 0;
     int even = 0;
 
-    for (int i = 0; i < n; i++) {
+    for (int i = 0; i < n; i++)
+    {
 
-        if (i % 2 == 0) {
+        if (i % 2 == 0)
+        {
             even = even + arr[i];
         }
-        else {
+        else
+        {
             odd = odd + arr[i];
         }
     }
 
     cout << "Difference of even and odd index sums: ";
 
-    if (even >= odd) {
+    if (even >= odd)
+    {
         cout << even - odd;
     }
-    else {
+    else
+    {
         cout << odd - even;
     }
 
