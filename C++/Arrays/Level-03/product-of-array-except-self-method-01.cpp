@@ -20,7 +20,7 @@ int main()
             }
         }
 
-        cout << product << endl;
+        cout << product <<" ";
     }
 
     return 0;
